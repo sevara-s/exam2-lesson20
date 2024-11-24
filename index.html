@@ -1,0 +1,987 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./src/output.css" rel="stylesheet" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- header started -->
+    <header class="header p-[25px] bg-[#fff]">
+      <div
+        class="container flex items-center justify-between max-[345px]:gap-[30px]"
+      >
+        <div class="menu_bar hidden max-[1100px]:block">
+          <label for="check3"><img src="./svgs/menu.svg" alt="" /></label>
+          <!-- section:dashboard -->
+          <input type="checkbox" id="check3" class="hidden" />
+          <section class="dashboard bg-white h-[100vh] w-[320px;]">
+            <div class="container2 pr-[50px] pt-[30px]">
+              <img
+                class="max-[1350px]:hidden header_img"
+                src="./imgs/header.png"
+                alt=""
+              />
+
+              <div class="dashboard_links flex flex-col gap-[40px] mt-[50px]">
+                <!-- d1 -->
+                <div class="d1 flex items-center gap-[20px]">
+                  <div class="blue_line"></div>
+                  <img src="./dashboard svgs/d1.svg" alt="" />
+                  <p class="font-[500] text-[18px] text-[#1d72d2]">Umumiy</p>
+                </div>
+                <!-- d2 -->
+                <div class="d1 flex items-center gap-[20px]">
+                  <div class="blue_line"></div>
+                  <img src="./dashboard svgs/d2.svg" alt="" />
+                  <p>
+                    <a
+                      class="font-[500] text-[18px] text-4 hover:text-2"
+                      href="#"
+                      >Mening kurslarim</a
+                    >
+                  </p>
+                </div>
+                <!-- d3 -->
+                <div class="d1 flex items-center gap-[20px]">
+                  <div class="blue_line"></div>
+                  <img src="./dashboard svgs/d3.svg" alt="" />
+                  <p class="font-[500] text-[18px] text-4 hover:text-[#1d72d2]">
+                    Profilim
+                  </p>
+                </div>
+                <!-- d4 -->
+                <div class="d1 flex items-center gap-[20px]">
+                  <div class="blue_line"></div>
+                  <img src="./dashboard svgs/d4.svg" alt="" />
+                  <p>
+                    <a
+                      class="font-[500] text-[18px] text-4 hover:text-2"
+                      href="#"
+                      >Topshiriqlar</a
+                    >
+                  </p>
+                </div>
+                <!-- d5 -->
+                <div class="d1 flex items-center gap-[20px]">
+                  <div class="blue_line"></div>
+                  <img src="./dashboard svgs/d5.svg" alt="" />
+                  <p class="font-[500] text-[18px] text-4 hover:text-[#1d72d2]">
+                    Viktorina
+                  </p>
+                </div>
+                <!-- d6 -->
+                <div class="d1 flex items-center gap-[20px]">
+                  <div class="blue_line"></div>
+                  <img src="./dashboard svgs/d2.svg" alt="" />
+                  <p>
+                    <a
+                      class="font-[500] text-[18px] text-4 hover:text-2"
+                      href="#"
+                      >Xabarlar</a
+                    >
+                  </p>
+                </div>
+                <!-- d7 -->
+                <div class="d1 flex items-center gap-[20px]">
+                  <div class="blue_line"></div>
+                  <img src="./dashboard svgs/d7.svg" alt="" />
+                  <p class="font-[500] text-[18px] text-4 hover:text-[#1d72d2]">
+                    To’lovlar tarixi
+                  </p>
+                </div>
+                <!-- d8 -->
+                <div class="d1 flex items-center gap-[20px]">
+                  <div class="blue_line"></div>
+                  <img src="./dashboard svgs/d8.svg" alt="" />
+                  <p>
+                    <a
+                      class="font-[500] text-[18px] text-4 hover:text-2"
+                      href="#"
+                      >Chiqish</a
+                    >
+                  </p>
+                </div>
+
+                <div class="close3"><label for="check3"><i class="fa-solid fa-xmark text-[40px]"></i></label></div>
+              </div>
+            </div>
+          </section>
+          <!-- section:dashboard ended -->
+        </div>
+        <img class="max-[360px]:w-[50%]" src="./imgs/header.png" alt="" />
+        <div
+          class="header_links flex items-center gap-[25px] max-[1100px]:hidden"
+        >
+          <p>
+            <a class="font-[500] text-[16px] text-1 hover:text-2" href="#"
+              >Asosiy</a
+            >
+          </p>
+          <p>
+            <a class="font-[500] text-[16px] text-1 hover:text-2" href="#"
+              >Kurslarimiz</a
+            >
+          </p>
+          <p>
+            <a class="font-[500] text-[16px] text-1 hover:text-2" href="#"
+              >Blog</a
+            >
+          </p>
+          <p>
+            <a class="font-[500] text-[16px] text-1 hover:text-2" href="#"
+              >Biz haqimizda</a
+            >
+          </p>
+          <p>
+            <a class="font-[500] text-[16px] text-1 hover:text-2" href="#"
+              >Bog’lanish</a
+            >
+          </p>
+          <img src="./svgs/search.svg" alt="" />
+          <div class="lan flex items-center gap-[5px]">
+            <p>EN</p>
+            <img src="./svgs/drop.svg" alt="" />
+          </div>
+          <a
+            href="./dashboar.html"
+            class="flex items-center gap-[5px] border border-[3] rounded-[8px] px-[20px] py-[10px]"
+          >
+            <p>Kirish</p>
+            <img src="./svgs/enter.svg" alt="" />
+          </a>
+        </div>
+        <a class="hidden max-[1100px]:block" href="./dashboar.html"
+          ><img src="./imgs/profile_res.png" alt=""
+        /></a>
+      </div>
+    </header>
+    <!-- header ended -->
+
+    <!-- showcase started -->
+    <section class="showcase bg-showcase">
+      <div
+        class="container flex flex-col gap-[30px] items-center justify-center px-[10px] py-[50px]"
+      >
+        <h1
+          class="font-[800] text-[54px] text-2 text-center max-[1050px]:text-[50px] max-[570px]:text-[40px] max-[400px]:text-[30px]"
+        >
+          Dasturlashni
+          <span class="text-1"
+            >biz bilan qulay <br class="max-[855px]:hidden" />
+            muhitda o‘rganing</span
+          >
+        </h1>
+        <p
+          class="font-[400] text-[20px] text-4 mt-[18px] text-center max-[400px]:text-[16px]"
+        >
+          Khan Academy - bu siz izlagan akademiya bo’lib, unda siz juda qisqa
+          muddatda istalgan <br class="max-[1040px]:hidden" />
+          dasturlash sohasida Junior darajasiga chiqa olasiz
+        </p>
+
+        <div
+          class="showcase_btns flex items-center gap-[16px] max-[420px]:flex-col"
+        >
+          <button class="btn1 flex items-center gap-[5px] max-[420px]:w-full">
+            <p class="font-[600] text-white text-[18px]">Boshlash</p>
+            <img src="./svgs/start.svg" alt="" />
+          </button>
+          <button
+            class="flex items-center gap-[5px] border border-3 px-[40px] py-[20px] bg-3 rounded-[8px] transform duration-[0.8s] hover:scale-[0.8] max-[420px]:w-full"
+          >
+            <img src="./svgs/github.svg" alt="" />
+            <p class="font-[600] text-[18px] text-1">GitHub</p>
+          </button>
+        </div>
+
+        <div
+          class="green_box rounded-[8px] bg-lightgreen flex items-center gap-[15px] py-[17px] px-[28px] transform duration-[0.8s] hover:scale-[0.8]"
+        >
+          <img src="./imgs/showcase_icon.png" alt="" />
+          <div class="green_headings">
+            <p class="font-[600] text-[10px] text-1">GitNation React Award</p>
+            <p class="font-[600] text-[16px] text-greenish">
+              Most Impactful Project <br />
+              to the Community
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- showcase ended -->
+
+    <!-- section:learn_more started -->
+    <section
+      class="learn_more p-[50px] max-[1310px]:p-[20px] max-[400px]:p-[10px]"
+    >
+      <div class="container">
+        <h1
+          class="text-1 font-[800] text-[54px] text-center max-[1050px]:text-[50px] max-[570px]:text-[40px] max-[400px]:text-[30px]"
+        >
+          Kam vaqtda
+          <span class="text-2"> ko‘proq o‘rganish</span>
+        </h1>
+
+        <p
+          class="font-[400] text-[20px] text-4 mt-[18px] text-center max-[400px]:text-[16px]"
+        >
+          Khan akademiyasida juda qisqa muddatda istalgan <br />
+          dasturlash sohasida Junior darajasiga chiqa olasiz
+        </p>
+
+        <div
+          class="video_part flex items-center gap-[50px] mt-[50px] max-[1310px]:flex-col"
+        >
+          <video width="600" controls poster="./imgs/video_img.png">
+            <source src="./video/video.mp4" type="video/mp4" />
+          </video>
+          <div
+            class="video_part_right rounded-[6px] border border-[#eff2f7] p-[20px] max-[370px]:p-[10px]"
+          >
+            <div class="house">
+              <img src="./imgs/house.png" alt="" />
+              <div class="house_links flex items-center gap-[20px]">
+                <div
+                  class="house_link rounded-[4px] px-[6px] py-[4px] hover:bg-3"
+                >
+                  <p>
+                    <a
+                      class="font-[500] text-[12px] text-2 max-[345px]:text-[8px]"
+                      href=""
+                      >PLUS</a
+                    >
+                  </p>
+                </div>
+                <div
+                  class="house_link rounded-[4px] px-[6px] py-[4px] hover:bg-3"
+                >
+                  <p>
+                    <a
+                      class="font-[500] text-[12px] text-2 max-[345px]:text-[8px]"
+                      href=""
+                      >VERIFIED</a
+                    >
+                  </p>
+                </div>
+                <div
+                  class="house_link rounded-[4px] px-[6px] py-[4px] hover:bg-3"
+                >
+                  <p>
+                    <a
+                      class="font-[500] text-[12px] text-2 max-[345px]:text-[8px]"
+                      href=""
+                      >CAPE TOWN</a
+                    >
+                  </p>
+                </div>
+              </div>
+              <h3 class="font-[600] text-[20px] text-1 max-[345px]:text-[12px]">
+                Modern, Chic Penthouse
+              </h3>
+              <p class="font-[600] text-[14px] text-bl">
+                $119/ <span class="font-[400]">night</span>
+              </p>
+              <div
+                class="stars_sec flex items-center justify-center gap-[15px]"
+              >
+                <img src="./imgs/stars.png" alt="" />
+                <p class="font-[600] text-[14px] text-2">
+                  4.5<span class="font-[400]">(190)</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section:learn_more ended -->
+
+    <!-- section:strengths -->
+    <section class="strengths mt-[50px] bg-showcase">
+      <div class="container py-[40px]">
+        <h1
+          class="text-1 font-[800] text-[54px] text-center max-[1050px]:text-[50px] max-[570px]:text-[40px] max-[400px]:text-[30px]"
+        >
+          Bizning ustun
+          <span class="text-2"> jihatlarimiz</span>
+        </h1>
+        <p
+          class="font-[400] text-[20px] text-4 mt-[18px] text-center max-[400px]:text-[16px]"
+        >
+          Quyida bizning ustun jihatlarimiz bilan tanishing
+        </p>
+
+        <!-- cards started -->
+        <div
+          class="cards grid grid-cols-3 mt-[40px] gap-[40px] max-[1140px]:grid-cols-2 max-[660px]:grid-cols-1"
+        >
+          <!-- card1 -->
+          <div
+            class="card1 flex flex-col gap-[10px] bg-white border border-[#eff2f7] rounded-[12px] p-[40px] transform duration-[0.8s] hover:scale-[0.8] max-[420px]:w-full"
+          >
+            <div
+              class="card_icon bg-3 w-[50px] h-[50px] flex items-center justify-center rounded-[100%]"
+            >
+              <img src="./svgs/card1.svg" alt="" />
+            </div>
+            <h4 class="font-[600] text-[20px] text-1">Kuchli Mentorlar</h4>
+            <p class="font-[400] text-[18px] text-4">
+              Webbrain UI strictly follows WAIARIA standarts for all components
+              strictly follows.
+            </p>
+          </div>
+          <!-- card2 -->
+          <div
+            class="card1 flex flex-col gap-[10px] bg-white border border-[#eff2f7] rounded-[12px] p-[40px] transform duration-[0.8s] hover:scale-[0.8] max-[420px]:w-full"
+          >
+            <div
+              class="card_icon bg-2 w-[50px] h-[50px] flex items-center justify-center rounded-[100%]"
+            >
+              <img src="./svgs/card2.svg" alt="" />
+            </div>
+            <h4 class="font-[600] text-[20px] text-1">Muntazam o’rganish</h4>
+            <p class="font-[400] text-[18px] text-4">
+              Webbrain UI strictly follows WAIARIA standarts for all components
+              strictly follows.
+            </p>
+          </div>
+          <!-- card3 -->
+          <div
+            class="card1 flex flex-col gap-[10px] bg-white border border-[#eff2f7] rounded-[12px] p-[40px] transform duration-[0.8s] hover:scale-[0.8] max-[420px]:w-full"
+          >
+            <div
+              class="card_icon bg-3 w-[50px] h-[50px] flex items-center justify-center rounded-[100%]"
+            >
+              <img src="./svgs/card1.svg" alt="" />
+            </div>
+            <h4 class="font-[600] text-[20px] text-1">Qulay muhit</h4>
+            <p class="font-[400] text-[18px] text-4">
+              Webbrain UI strictly follows WAIARIA standarts for all components
+              strictly follows.
+            </p>
+          </div>
+          <!-- card4 -->
+          <div
+            class="card1 flex flex-col gap-[10px] bg-white border border-[#eff2f7] rounded-[12px] p-[40px] transform duration-[0.8s] hover:scale-[0.8] max-[420px]:w-full"
+          >
+            <div
+              class="card_icon bg-3 w-[50px] h-[50px] flex items-center justify-center rounded-[100%]"
+            >
+              <img src="./svgs/card1.svg" alt="" />
+            </div>
+            <h4 class="font-[600] text-[20px] text-1">Intensiv Darslar</h4>
+            <p class="font-[400] text-[18px] text-4">
+              Webbrain UI strictly follows WAIARIA standarts for all components
+              strictly follows.
+            </p>
+          </div>
+          <!-- card5 -->
+          <div
+            class="card1 flex flex-col gap-[10px] bg-white border border-[#eff2f7] rounded-[12px] p-[40px] transform duration-[0.8s] hover:scale-[0.8] max-[420px]:w-full"
+          >
+            <div
+              class="card_icon bg-3 w-[50px] h-[50px] flex items-center justify-center rounded-[100%]"
+            >
+              <img src="./svgs/card1.svg" alt="" />
+            </div>
+            <h4 class="font-[600] text-[20px] text-1">Ahil Jamoa</h4>
+            <p class="font-[400] text-[18px] text-4">
+              Webbrain UI strictly follows WAIARIA standarts for all components
+              strictly follows.
+            </p>
+          </div>
+          <!-- card6 -->
+          <div
+            class="card1 flex flex-col gap-[10px] bg-white border border-[#eff2f7] rounded-[12px] p-[40px] transform duration-[0.8s] hover:scale-[0.8] max-[420px]:w-full"
+          >
+            <div
+              class="card_icon bg-3 w-[50px] h-[50px] flex items-center justify-center rounded-[100%]"
+            >
+              <img src="./svgs/card1.svg" alt="" />
+            </div>
+            <h4 class="font-[600] text-[20px] text-1">Amaliy darslar</h4>
+            <p class="font-[400] text-[18px] text-4">
+              Webbrain UI strictly follows WAIARIA standarts for all components
+              strictly follows.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section:strenghts -->
+
+    <!-- section:build_your_future -->
+    <section class="build_your_future mt-[50px]">
+      <div class="container">
+        <div class="build_top flex items-center gap-[15px] flex-col">
+          <h1
+            class="text-1 font-[800] text-[54px] text-center max-[1050px]:text-[50px] max-[570px]:text-[40px] max-[400px]:text-[30px]"
+          >
+            Kelajagingizni
+            <span class="text-2">Khan Academy bilan</span> quring
+          </h1>
+          <p
+            class="font-[400] text-[20px] text-4 mt-[18px] text-center max-[400px]:text-[16px]"
+          >
+            A collection of websites and projects built with Webbrain UI
+          </p>
+          <button class="btn1 flex items-center gap-[5px] max-[420px]:w-full">
+            <p class="font-[600] text-white text-[18px]">Ko’proq ko’rish</p>
+            <img src="./svgs/start.svg" alt="" />
+          </button>
+
+          <div
+            class="imgss flex items-center gap-[40px] mt-[60px] max-[900px]:flex-col"
+          >
+            <div class="left_imgs flex flex-col gap-[40px]">
+              <div class="first_img">
+                <img class="imgp" src="./imgs/img1.png" alt="" />
+                <div class="hover_icons flex items-center justify-around">
+                  <p class="font-[600] text-[24px] text-[#fff]">Project Name</p>
+                  <img src="./svgs/likewhite.svg" alt="" />
+                </div>
+              </div>
+              <div class="first_img">
+                <img class="imgp" src="./imgs/img2.png" alt="" />
+                <div class="hover_icons flex items-center justify-around">
+                  <p class="font-[600] text-[24px] text-[#fff]">Project Name</p>
+                  <img src="./svgs/likewhite.svg" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="right_img">
+              <div class="first_img">
+                <img class="imgp" src="./imgs/img3.png" alt="" />
+                <div class="hover_icons flex items-center justify-around">
+                  <p class="font-[600] text-[24px] text-[#fff]">Project Name</p>
+                  <img src="./svgs/likewhite.svg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section:build_your_future ended -->
+
+    <!-- section:khan_academy -->
+    <section class="khan_academy bg-2 mt-[80px]">
+      <div class="container py-[60px]">
+        <h1
+          class="font-[700] text-[54px] text-white text-center max-[1050px]:text-[50px] max-[570px]:text-[40px] max-[400px]:text-[30px]"
+        >
+          Shiddat bilan o‘sayotgan <br />
+          Khan Academy
+        </h1>
+        <p class="font-[500] text-[20px] text-white text-center">
+          We’re dedicated to improving the experience and perfomance of Webbrain
+          UI
+        </p>
+
+        <div
+          class="numbers grid grid-cols-4 gap-[30px] max-[1025px]:grid-cols-2 max-[500px]:grid-cols-1"
+        >
+          <!-- num1 -->
+          <div class="num1 flex items-center gap-[25px]">
+            <div class="line w-[3px] h-[133px] bg-[#ecc744]"></div>
+            <div class="nums mt-[55px]">
+              <h3 class="font-[500] text-[80px] text-white">1.2M</h3>
+              <div class="num_icon flex items-center gap-[5px]">
+                <img src="./svgs/download.svg" alt="" />
+                <p class="font-[500] text-[18px] text-white">
+                  Download per month
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- num2 -->
+          <div class="num1 flex items-center gap-[25px]">
+            <div class="line w-[3px] h-[133px] bg-[#ecc744]"></div>
+            <div class="nums mt-[55px]">
+              <h3 class="font-[500] text-[80px] text-white">25.1K</h3>
+              <div class="num_icon flex items-center gap-[5px]">
+                <img src="./svgs/githubs.svg" alt="" />
+                <p class="font-[500] text-[18px] text-white">GitHub stars</p>
+              </div>
+            </div>
+          </div>
+          <!-- num3 -->
+          <div class="num1 flex items-center gap-[25px]">
+            <div class="line w-[3px] h-[133px] bg-[#ecc744]"></div>
+            <div class="nums mt-[55px]">
+              <h3 class="font-[500] text-[80px] text-white">14</h3>
+              <div class="num_icon flex items-center gap-[5px]">
+                <img src="./svgs/personal.svg" alt="" />
+                <p class="font-[500] text-[18px] text-white">
+                  Core contributors
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- num4 -->
+          <div class="num1 flex items-center gap-[25px]">
+            <div class="line w-[3px] h-[133px] bg-[#ecc744]"></div>
+            <div class="nums mt-[55px]">
+              <h3 class="font-[500] text-[80px] text-white">6.2K</h3>
+              <div class="num_icon flex items-center gap-[5px]">
+                <img src="./svgs/githubs.svg" alt="" />
+                <p class="font-[500] text-[18px] text-white">Discord members</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section:khan_academy ended -->
+
+    <!-- section:group started -->
+    <section class="group mt-[60px]">
+      <div class="container">
+        <div class="group_top flex items-center flex-col gap-[15px]">
+          <h1
+            class="text-1 font-[800] text-[54px] text-center max-[1050px]:text-[50px] max-[570px]:text-[40px] max-[400px]:text-[30px]"
+          >
+            Bizning professional
+            <span class="text-2">jamoamiz</span>
+          </h1>
+          <p
+            class="font-[400] text-[20px] text-4 mt-[18px] text-center max-[400px]:text-[16px]"
+          >
+            A collection of websites and projects built with Webbrain UI
+          </p>
+          <button class="btn1 flex items-center gap-[5px] max-[420px]:w-full">
+            <p class="font-[600] text-white text-[18px]">Boshlash</p>
+            <img src="./svgs/start.svg" alt="" />
+          </button>
+        </div>
+        <div
+          class="workerss mt-[60px] grid grid-cols-4 gap-[40px] max-[1165px]:grid-cols-2 max-[550px]:grid-cols-1"
+        >
+          <!-- worker1 -->
+          <div class="worker1">
+            <img class="w-full worker_img" src="./imgs/w1.png" alt="" />
+            <div class="workers_name border-[#eff2f7] rounded-[12px] p-[30px]">
+              <h5 class="font-[600] text-[18px] text-1 text-center">
+                Cameron Williamson
+              </h5>
+              <p class="font-[400] text-[16px] text-[#8a90a5] text-center">
+                Backend Developer
+              </p>
+            </div>
+            <div class="workers_social_media flex items-center justify-around">
+              <a
+                class="w-[46px] h-[46px] bg-transparent flex items-center justify-center rounded-[100%] border border-[#fff]"
+                href="#"
+              >
+                <img src="./svgs/s1.svg" alt="" />
+              </a>
+              <a
+                class="w-[46px] h-[46px] bg-transparent flex items-center justify-center rounded-[100%] border border-[#fff]"
+                href="#"
+              >
+                <img src="./svgs/s2.svg" alt="" />
+              </a>
+              <a
+                class="w-[46px] h-[46px] bg-transparent flex items-center justify-center rounded-[100%] border border-[#fff]"
+                href="#"
+              >
+                <img src="./svgs/s3.svg" alt="" />
+              </a>
+              <a
+                class="w-[46px] h-[46px] bg-transparent flex items-center justify-center rounded-[100%] border border-[#fff]"
+                href="#"
+              >
+                <img src="./svgs/s4.svg" alt="" />
+              </a>
+            </div>
+          </div>
+          <!-- worker2 -->
+          <div class="worker1">
+            <img class="w-full worker_img" src="./imgs/w2.png" alt="" />
+            <div class="workers_name border-[#eff2f7] rounded-[12px] p-[30px]">
+              <h5 class="font-[600] text-[18px] text-1 text-center">
+                Cameron Williamson
+              </h5>
+              <p class="font-[400] text-[16px] text-[#8a90a5] text-center">
+                Backend Developer
+              </p>
+            </div>
+            <div class="workers_social_media flex items-center justify-around">
+              <a
+                class="w-[46px] h-[46px] bg-transparent flex items-center justify-center rounded-[100%] border border-[#fff]"
+                href="#"
+              >
+                <img src="./svgs/s1.svg" alt="" />
+              </a>
+              <a
+                class="w-[46px] h-[46px] bg-transparent flex items-center justify-center rounded-[100%] border border-[#fff]"
+                href="#"
+              >
+                <img src="./svgs/s2.svg" alt="" />
+              </a>
+              <a
+                class="w-[46px] h-[46px] bg-transparent flex items-center justify-center rounded-[100%] border border-[#fff]"
+                href="#"
+              >
+                <img src="./svgs/s3.svg" alt="" />
+              </a>
+              <a
+                class="w-[46px] h-[46px] bg-transparent flex items-center justify-center rounded-[100%] border border-[#fff]"
+                href="#"
+              >
+                <img src="./svgs/s4.svg" alt="" />
+              </a>
+            </div>
+          </div>
+          <!-- worker3 -->
+          <div class="worker1">
+            <img class="w-full worker_img" src="./imgs/w3.png" alt="" />
+            <div class="workers_name border-[#eff2f7] rounded-[12px] p-[30px]">
+              <h5 class="font-[600] text-[18px] text-1 text-center">
+                Cameron Williamson
+              </h5>
+              <p class="font-[400] text-[16px] text-[#8a90a5] text-center">
+                Backend Developer
+              </p>
+            </div>
+            <div class="workers_social_media flex items-center justify-around">
+              <a
+                class="w-[46px] h-[46px] bg-transparent flex items-center justify-center rounded-[100%] border border-[#fff]"
+                href="#"
+              >
+                <img src="./svgs/s1.svg" alt="" />
+              </a>
+              <a
+                class="w-[46px] h-[46px] bg-transparent flex items-center justify-center rounded-[100%] border border-[#fff]"
+                href="#"
+              >
+                <img src="./svgs/s2.svg" alt="" />
+              </a>
+              <a
+                class="w-[46px] h-[46px] bg-transparent flex items-center justify-center rounded-[100%] border border-[#fff]"
+                href="#"
+              >
+                <img src="./svgs/s3.svg" alt="" />
+              </a>
+              <a
+                class="w-[46px] h-[46px] bg-transparent flex items-center justify-center rounded-[100%] border border-[#fff]"
+                href="#"
+              >
+                <img src="./svgs/s4.svg" alt="" />
+              </a>
+            </div>
+          </div>
+          <!-- worker4 -->
+          <div class="worker1">
+            <img class="w-full worker_img" src="./imgs/w4.png" alt="" />
+            <div class="workers_name border-[#eff2f7] rounded-[12px] p-[30px]">
+              <h5 class="font-[600] text-[18px] text-1 text-center">
+                Cameron Williamson
+              </h5>
+              <p class="font-[400] text-[16px] text-[#8a90a5] text-center">
+                Backend Developer
+              </p>
+            </div>
+            <div class="workers_social_media flex items-center justify-around">
+              <a
+                class="w-[46px] h-[46px] bg-transparent flex items-center justify-center rounded-[100%] border border-[#fff]"
+                href="#"
+              >
+                <img src="./svgs/s1.svg" alt="" />
+              </a>
+              <a
+                class="w-[46px] h-[46px] bg-transparent flex items-center justify-center rounded-[100%] border border-[#fff]"
+                href="#"
+              >
+                <img src="./svgs/s2.svg" alt="" />
+              </a>
+              <a
+                class="w-[46px] h-[46px] bg-transparent flex items-center justify-center rounded-[100%] border border-[#fff]"
+                href="#"
+              >
+                <img src="./svgs/s3.svg" alt="" />
+              </a>
+              <a
+                class="w-[46px] h-[46px] bg-transparent flex items-center justify-center rounded-[100%] border border-[#fff]"
+                href="#"
+              >
+                <img src="./svgs/s4.svg" alt="" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section:group ended -->
+
+    <!-- section:hamkorlik started -->
+    <section class="hamkorlik bg-2 py-[40px] mt-[80px]">
+      <div class="container flex flex-col items-center gap-[30px]">
+        <h1
+          class="font-[700] text-[54px] text-white text-center max-[1050px]:text-[50px] max-[570px]:text-[40px] max-[400px]:text-[30px]"
+        >
+          Hamkorlik qilishga tayyormisiz?
+        </h1>
+        <p
+          class="font-[500] text-[18px] text-white text-center max-[540px]:text-[14px]"
+        >
+          Our maintainers devote their time, effort, and heart to ensure
+          Webbrain UI keeps getting better. Support us by donating to our
+          collective
+        </p>
+
+        <div class="sponsers flex flex-col items-center gap-[30px]">
+          <!-- first -->
+          <div
+            class="spon1 flex items-center gap-[30px] max-[510px]:flex-col max-[510px]:items-start"
+          >
+            <div class="spon_top flex items-center gap-[30px]">
+              <img src="./svgs/spon.svg" alt="" />
+              <div class="collective">
+                <div class="top_spon">
+                  <h6 class="font-[600] text-[18px] text-1">Open Collective</h6>
+                  <p class="font-[400] text-[14px] text-4">
+                    Sponsor the Webbrain UI maintainers
+                  </p>
+                </div>
+              </div>
+            </div>
+            <button class="sponser">Sponsor</button>
+          </div>
+          <!-- second -->
+          <div
+            class="spon1 flex items-center gap-[30px] max-[510px]:flex-col max-[510px]:items-start"
+          >
+            <div class="spon_top flex items-center gap-[30px]">
+              <img src="./svgs/spon.svg" alt="" />
+              <div class="collective">
+                <div class="top_spon">
+                  <h6 class="font-[600] text-[18px] text-1">Open Collective</h6>
+                  <p class="font-[400] text-[14px] text-4">
+                    Sponsor the Webbrain UI maintainers
+                  </p>
+                </div>
+              </div>
+            </div>
+            <button class="sponser">Sponsor</button>
+          </div>
+        </div>
+
+        <h1 class="font-[600] text-[18px] text-white">ORGANIZATION SPONSORS</h1>
+        <div
+          class="google icons grid grid-cols-6 gap-[20px] max-[660px]:grid-cols-3"
+        >
+          <div
+            class="icn w-[80px] h-[80px] bg-white rounded-[100%] flex items-center justify-center"
+          >
+            <img src="./svgs/google.svg" alt="" />
+          </div>
+          <div
+            class="icn w-[80px] h-[80px] bg-white rounded-[100%] flex items-center justify-center"
+          >
+            <img src="./svgs/google.svg" alt="" />
+          </div>
+          <div
+            class="icn w-[80px] h-[80px] bg-white rounded-[100%] flex items-center justify-center"
+          >
+            <img src="./svgs/google.svg" alt="" />
+          </div>
+          <div
+            class="icn w-[80px] h-[80px] bg-white rounded-[100%] flex items-center justify-center"
+          >
+            <img src="./svgs/google.svg" alt="" />
+          </div>
+          <div
+            class="icn w-[80px] h-[80px] bg-white rounded-[100%] flex items-center justify-center"
+          >
+            <img src="./svgs/google.svg" alt="" />
+          </div>
+          <div
+            class="icn w-[80px] h-[80px] bg-white rounded-[100%] flex items-center justify-center"
+          >
+            <img src="./svgs/google.svg" alt="" />
+          </div>
+        </div>
+        <h1 class="font-[600] text-[18px] text-white">INDIVIDUAL SPONSORS</h1>
+        <div
+          class="spn_profile grid grid-cols-6 gap-[20px] max-[660px]:grid-cols-3"
+        >
+          <img src="./svgs/spn.svg" alt="" />
+          <img src="./svgs/spn2.svg" alt="" />
+          <img src="./svgs/spn3.svg" alt="" />
+          <img src="./svgs/spn4.svg" alt="" />
+          <img src="./svgs/spn5.svg" alt="" />
+          <img src="./svgs/spn6.svg" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- section:hamkorlik ended -->
+
+    <!-- section:our_projects -->
+    <section class="our_projects mt-[60px]">
+      <div class="container">
+        <div class="project_top flex flex-col gap-[15px] items-center">
+          <p class="font-[600] text-[18px] text-2 text-center">
+            PREMIUM COMPONENTS
+          </p>
+          <h1
+            class="text-1 font-[800] text-[54px] text-center max-[1050px]:text-[50px] max-[570px]:text-[40px] max-[400px]:text-[30px]"
+          >
+            Bizning
+            <span class="text-2">Loyihalar</span>
+          </h1>
+          <p
+            class="font-[400] text-[20px] text-4 mt-[18px] text-center max-[400px]:text-[16px]"
+          >
+            Beautiful and responsive React components to build your application
+            or marketing pages quicker.
+          </p>
+          <button class="btn1 flex items-center gap-[5px] max-[420px]:w-full">
+            <p class="font-[600] text-white text-[18px]">Batafsil</p>
+            <img src="./svgs/start.svg" alt="" />
+          </button>
+        </div>
+
+        <div class="projects_imgs grid grid-cols-3 mt-[80px]">
+          <img class="pr_i" src="./imgs/pr1.png" alt="" />
+          <img class="pr_i" src="./imgs/pr2.png" alt="" />
+          <img class="pr_i" src="./imgs/pr3.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- section:our_projects ended -->
+
+    <!-- section:strong started -->
+    <section class="strong mt-[100px] bg-3 pt-[50px] pb-[100px]">
+      <div class="container">
+        <div class="project_top flex flex-col gap-[15px] items-center">
+          <h1
+            class="text-1 font-[800] text-[54px] text-center max-[1050px]:text-[50px] max-[570px]:text-[40px] max-[400px]:text-[30px]"
+          >
+            Biz
+            <span class="text-2">Kuchlilarni</span> tayyorlaymiz!
+          </h1>
+          <p
+            class="font-[400] text-[20px] text-4 mt-[18px] text-center max-[400px]:text-[16px]"
+          >
+            Beautiful and responsive React components to build your application
+            or marketing pages quicker.
+          </p>
+          <button class="btn1 flex items-center gap-[5px] max-[420px]:w-full">
+            <p class="font-[600] text-white text-[18px]">Batafsil</p>
+            <img src="./svgs/start.svg" alt="" />
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- section:strong ended -->
+
+    <!-- section:connect started -->
+    <section class="connect bg-2">
+      <div
+        class="container flex items-center justify-between py-[20px] max-[1090px]:flex-col max-[1090px]:items-start max-[1090px]:gap-[30px]"
+      >
+        <div class="connect_left flex items-center gap-[20px]">
+          <img src="./svgs/connect.svg" alt="" />
+          <div class="connect_with_us">
+            <h5
+              class="font-[600] text-[22px] text-[#fff] max-[400px]:text-[15px]"
+            >
+              Biz bilan bog’lanish
+            </h5>
+            <p
+              class="font-[400] text-[16px] text-[#fff] max-[400px]:text-[9px]"
+            >
+              Feel free to ask questions, reports, issues and meet new people
+            </p>
+          </div>
+        </div>
+
+        <button class="join">
+          <p class="font-[600] text-[18px]max-[400px]:text-[9px]">
+            <span class="text-2">#KhanAcademy</span>ga qo‘shilish
+          </p>
+        </button>
+      </div>
+    </section>
+    <!-- section:content ended -->
+
+    <!-- footer started -->
+    <footer class="footer py-[50px] bg-[#f8fafc]">
+      <div
+        class="container grid grid-cols-5 gap-[30px] max-[1140px]:grid-cols-1"
+      >
+        <!-- links1 -->
+        <div class="f_links max-[1140px]:hidden">
+          <img src="./imgs/header.png" alt="" />
+          <p class="font-[400] text-[14px] text-4 mt-[10px]">
+            Istiklal street, Tashkent, <br />
+            Uzbekistan, 200136
+          </p>
+          <img
+            class="mt-10px max-[1140px]:hidden"
+            src="./imgs/socials.png"
+            alt=""
+          />
+        </div>
+        <!-- links2 -->
+        <div
+          class="f_links2 flex flex-col gap-[10px] max-[1140px]:items-center"
+        >
+          <h3 class="font-[500] text-[16px] text-[#323a56]">Support</h3>
+          <p><a class="font-[400] text-[16px] text-4" href="#">Team</a></p>
+          <p><a class="font-[400] text-[16px] text-4" href="#">Careers</a></p>
+          <p><a class="font-[400] text-[16px] text-4" href="#">Blogs</a></p>
+          <p><a class="font-[400] text-[16px] text-4" href="#">Security</a></p>
+        </div>
+        <!-- links3 -->
+        <div
+          class="f_links2 flex flex-col gap-[10px] max-[1140px]:items-center"
+        >
+          <h3 class="font-[500] text-[16px] text-[#323a56]">Product</h3>
+          <p>
+            <a class="font-[400] text-[16px] text-4" href="#">Clinical Board</a>
+          </p>
+          <p><a class="font-[400] text-[16px] text-4" href="#">News</a></p>
+          <p><a class="font-[400] text-[16px] text-4" href="#">Events</a></p>
+          <p><a class="font-[400] text-[16px] text-4" href="#">Contact</a></p>
+        </div>
+        <!-- links4 -->
+        <div
+          class="f_links2 flex flex-col gap-[10px] max-[1140px]:items-center"
+        >
+          <h3 class="font-[500] text-[16px] text-[#323a56]">Security</h3>
+          <p>
+            <a class="font-[400] text-[16px] text-4" href="#">Clinical Board</a>
+          </p>
+          <p>
+            <a class="font-[400] text-[16px] text-4" href="#">Privacy Policy</a>
+          </p>
+          <p>
+            <a class="font-[400] text-[16px] text-4" href="#"
+              >Terms & Conditions</a
+            >
+          </p>
+          <p><a class="font-[400] text-[16px] text-4" href="#">Events</a></p>
+          <p><a class="font-[400] text-[16px] text-4" href="#">Contact</a></p>
+        </div>
+        <!-- links5 -->
+        <div
+          class="f_links2 flex flex-col gap-[10px] max-[1140px]:items-center"
+        >
+          <h3 class="font-[500] text-[16px] text-[#323a56]">Subscribe</h3>
+          <p>
+            <a class="font-[400] text-[16px] text-4" href="#"
+              >Subscribe to get the latest news from us</a
+            >
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/output.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      rel="stylesheet"
+    />
+    <title>Dashboard</title>
+  </head>
+  <body>
+    <div class="main flex">
+      <!-- section:dashboard -->
+      <input type="checkbox" id="check3" class="hidden" />
+      <section class="dashboard bg-white h-[100vh] w-[320px;]">
+        <div class="container2 pr-[50px] pt-[30px]">
+          <img
+            class="max-[1350px]:hidden header_img"
+            src="./imgs/header.png"
+            alt=""
+          />
+
+          <div class="dashboard_links flex flex-col gap-[40px] mt-[50px]">
+            <!-- d1 -->
+            <div class="d1 flex items-center gap-[20px]">
+              <div class="blue_line"></div>
+              <img src="./dashboard svgs/d1.svg" alt="" />
+              <p class="font-[500] text-[18px] text-[#1d72d2]">Umumiy</p>
+            </div>
+            <!-- d2 -->
+            <div class="d1 flex items-center gap-[20px]">
+              <div class="blue_line"></div>
+              <img src="./dashboard svgs/d2.svg" alt="" />
+              <p>
+                <a class="font-[500] text-[18px] text-4 hover:text-2" href="#"
+                  >Mening kurslarim</a
+                >
+              </p>
+            </div>
+            <!-- d3 -->
+            <div class="d1 flex items-center gap-[20px]">
+              <div class="blue_line"></div>
+              <img src="./dashboard svgs/d3.svg" alt="" />
+              <p class="font-[500] text-[18px] text-4 hover:text-[#1d72d2]">
+                Profilim
+              </p>
+            </div>
+            <!-- d4 -->
+            <div class="d1 flex items-center gap-[20px]">
+              <div class="blue_line"></div>
+              <img src="./dashboard svgs/d4.svg" alt="" />
+              <p>
+                <a class="font-[500] text-[18px] text-4 hover:text-2" href="#"
+                  >Topshiriqlar</a
+                >
+              </p>
+            </div>
+            <!-- d5 -->
+            <div class="d1 flex items-center gap-[20px]">
+              <div class="blue_line"></div>
+              <img src="./dashboard svgs/d5.svg" alt="" />
+              <p class="font-[500] text-[18px] text-4 hover:text-[#1d72d2]">
+                Viktorina
+              </p>
+            </div>
+            <!-- d6 -->
+            <div class="d1 flex items-center gap-[20px]">
+              <div class="blue_line"></div>
+              <img src="./dashboard svgs/d2.svg" alt="" />
+              <p>
+                <a class="font-[500] text-[18px] text-4 hover:text-2" href="#"
+                  >Xabarlar</a
+                >
+              </p>
+            </div>
+            <!-- d7 -->
+            <div class="d1 flex items-center gap-[20px]">
+              <div class="blue_line"></div>
+              <img src="./dashboard svgs/d7.svg" alt="" />
+              <p class="font-[500] text-[18px] text-4 hover:text-[#1d72d2]">
+                To’lovlar tarixi
+              </p>
+            </div>
+            <!-- d8 -->
+            <div class="d1 flex items-center gap-[20px]">
+              <div class="blue_line"></div>
+              <img src="./dashboard svgs/d8.svg" alt="" />
+              <p>
+                <a class="font-[500] text-[18px] text-4 hover:text-2" href="#"
+                  >Chiqish</a
+                >
+              </p>
+            </div>
+
+            <div class="close3">
+              <label for="check3"
+                ><i class="fa-solid fa-xmark text-[40px]"></i
+              ></label>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- section:dashboard ended -->
+
+      <!-- section:main_menu  started-->
+      <section class="main_menu w-full px-[1px] py[50px]">
+        <div class="container2">
+          <!-- main_menu navbar started -->
+          <div
+            class="main_menu_nav flex items-center justify-between pb-[20px] bg-white"
+          >
+            <div class="main_menu">
+              <label for="check3" class="hidden max-[1250px]:block"
+                ><img src="./svgs/menu.svg" alt=""
+              /></label>
+            </div>
+            <div
+              class="asosiy_menu flex items-center justify-center py-[12px] px-[20px] border border-[#eff2f7] rounded-[30px] max-[1100px]:hidden"
+            >
+              <p class="font-[500] text-[18px] text-1">Asosiy menu</p>
+            </div>
+
+            <div class="right_nav_side flex items-center gap-[40px] bg-[#fff]">
+              <div
+                class="data py-[12px] px-[20px] border border-[#eff2f7] rounded-[30px] max-[1250px]:hidden"
+              >
+                <p class="font-[400] text-[16px] text-[#8a90a5]">22.04.2022</p>
+              </div>
+
+              <div
+                class="searching flex items-center justify-between bg-[white] rounded-[400px] py-[12px] px-[20px] border border-[#eff2f7] max-[1100px]:hidden"
+              >
+                <input
+                  class="outline-none"
+                  type="search"
+                  placeholder="Nimani qidiramiz?"
+                />
+                <img src="./svgs/search.svg" alt="" />
+              </div>
+
+              <div
+                class="not1 w-[46px] h-[46px] rounded-[28px] border border-[#eff2f7] bg-white flex items-center justify-center"
+              >
+                <img src="./dashboard svgs/nav1.svg" alt="" />
+              </div>
+
+              <div
+                class="not1 w-[46px] h-[46px] rounded-[28px] border border-[#eff2f7] bg-white flex items-center justify-center"
+              >
+                <img src="./dashboard svgs/nav2.svg" alt="" />
+              </div>
+
+              <div class="profile1 flex items-center gap-[10px]">
+                <p class="font-[500] text-[14px] text-4">Kalimetov Dilmurod</p>
+                <img src="./dashboard imgs/profile1.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <!-- main_menu navbar ended -->
+
+          <!-- umumiy started -->
+          <div class="umumiy p-[10px] flex gap-[30px] mt-[30px]">
+            <div class="umumiy_left">
+              <h1 class="font-[700] text-[26px] text-1">Umumiy</h1>
+
+              <div
+                class="umumiy_cards mt-[50px] grid grid-cols-3 bg-[#fff] rounded-[6px] border border-[#eff2f7] py-[20px] px-[40px] max-[930px]:grid-cols-1 max-[930px]:p-[0px]"
+              >
+                <!-- card1 -->
+                <div class="umc1 flex items-center gap-[20px]">
+                  <img
+                    class="h-[80px] w-[80px] rounded-[100%] bg-[#f4fff4]"
+                    src="./dashboard imgs/icon1.png"
+                    alt=""
+                  />
+                  <div class="number">
+                    <h5 class="font-[700] text-[40px]">4</h5>
+                    <p class="font-[400] etxt-[18px] text-4">
+                      Ro’yxatdan o’tilgan kurslar
+                    </p>
+                  </div>
+                </div>
+                <!-- card2 -->
+                <div class="umc1 flex items-center gap-[20px]">
+                  <img
+                    class="h-[80px] w-[80px] rounded-[100%] bg-[#f4fff4]"
+                    src="./dashboard imgs/icon2.png"
+                    alt=""
+                  />
+                  <div class="number">
+                    <h5 class="font-[700] text-[40px]">2</h5>
+                    <p class="font-[400] etxt-[18px] text-4">
+                      Amaldagi kurslarr
+                    </p>
+                  </div>
+                </div>
+                <!-- card3 -->
+                <div class="umc1 flex items-center gap-[20px]">
+                  <img
+                    class="h-[80px] w-[80px] rounded-[100%] bg-[#f4fff4]"
+                    src="./dashboard imgs/icon3.png"
+                    alt=""
+                  />
+                  <div class="number">
+                    <h5 class="font-[700] text-[40px]">2</h5>
+                    <p class="font-[400] etxt-[18px] text-4">
+                      Tugatilgan kurslar
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="activity_exercises mt-[40px] flex gap-[50px] max-[1090px]:flex-col">
+                <div class="activity">
+                  <div class="activity_top flex items-center justify-between">
+                    <h1 class="font-[500] text-[20px]">Mening faolligim</h1>
+                    <div class="weekly">
+                      <p class="font-[500] text-[12px] text-4">Haftalik</p>
+                    </div>
+                  </div>
+
+                  <div class="graphs mt-[25px] flex items-center gap-[40px]">
+                    <div class="num1 flex flex-col gap-[27px]">
+                      <p class="font-[400] text-[12px] text-4">50</p>
+                      <p class="font-[400] text-[12px] text-4">40</p>
+                      <p class="font-[400] text-[12px] text-4">30</p>
+                      <p class="font-[400] text-[12px] text-4">20</p>
+                      <p class="font-[400] text-[12px] text-4">10</p>
+                    </div>
+                    <div class="main_g">
+                      <img src="./dashboard svgs/graph.svg" alt="" />
+                      <div class="week_days flex items-center gap-[68px]">
+                        <p class="font-[400] text-[12px] text-4">Du</p>
+                        <p class="font-[400] text-[12px] text-4">Se</p>
+                        <p class="font-[400] text-[12px] text-4">Cho</p>
+                        <p class="font-[400] text-[12px] text-4">Pa</p>
+                        <p class="font-[400] text-[12px] text-4">Ju</p>
+                        <p class="font-[400] text-[12px] text-4">Sha</p>
+                        <p class="font-[400] text-[12px] text-4">Ya</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="tasks">
+                  <div class="activity_top flex items-center justify-between">
+                    <h1 class="font-[500] text-[20px]">Topshiriqlar</h1>
+                    <div class="weekly">
+                      <p class="font-[500] text-[12px] text-4">Haftalik</p>
+                    </div>
+                  </div>
+
+                  <img src="./dashboard imgs/colorful.png" alt="" />
+                  <div class="statistic mt-[20px]">
+                    <div class="flex items-center gap-[15px]">
+                      <div
+                        class="round_color w-[12px] h-[12px] rounded-[40px] bg-2"
+                      ></div>
+                      <p class="font-[400] text-[14px] text-4">Bajarilgan</p>
+                    </div>
+                    <div class="flex items-center gap-[15px]">
+                      <div
+                        class="round_color w-[12px] h-[12px] rounded-[40px] bg-[#ecc744]"
+                      ></div>
+                      <p class="font-[400] text-[14px] text-4">Bajarilmagab</p>
+                    </div>
+                    <div class="flex items-center gap-[15px]">
+                      <div
+                        class="round_color w-[12px] h-[12px] rounded-[40px] bg-[#70c63b]"
+                      ></div>
+                      <p class="font-[400] text-[14px] text-4">
+                        Davom etayotgan
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="history mt-[40px] flex gap-[170px] max-[1090px]:flex-col">
+                <div class="viktorinlar">
+                  <div class="activity_top flex items-center justify-between">
+                    <h1 class="font-[500] text-[20px]">Viktorinalar</h1>
+                    <div class="weekly">
+                      <p class="font-[500] text-[12px] text-4">Haftalik</p>
+                    </div>
+                  </div>
+                  <div class="all_info">
+                    <!-- info1 -->
+                    <div
+                      class="information mt-[30px] flex items-center gap-[30px]"
+                    >
+                      <div class="info">
+                        <div
+                          class="icon_div w-[50px] h-[50px] rounded-[100%] bg-[#f1f8ff] flex items-center justify-center"
+                        >
+                          <img src="./dashboard svgs/blue.svg" alt="" />
+                        </div>
+                      </div>
+                      <div class="info_heading">
+                        <h4 class="font-[500] text-[16px] text-1">
+                          Ma’lumotlar tuzilmasi
+                        </h4>
+                        <p class="font-[400] text-[14px] text-4">
+                          Bugun, 16:30
+                        </p>
+                      </div>
+                      <div
+                        class="success bg-[#f4fff4] rounded-[40px] px-[14px] py-[7px]"
+                      >
+                        <p class="font-[500] text-[14px] text-[#70c63b]">
+                          Muvaffaqqiyatli
+                        </p>
+                      </div>
+                    </div>
+                    <!-- info2 -->
+                    <div
+                      class="information mt-[30px] flex items-center gap-[30px]"
+                    >
+                      <div class="info">
+                        <div
+                          class="icon_div w-[50px] h-[50px] rounded-[100%] bg-[#f1f8ff] flex items-center justify-center"
+                        >
+                          <img src="./dashboard svgs/blue.svg" alt="" />
+                        </div>
+                      </div>
+                      <div class="info_heading">
+                        <h4 class="font-[500] text-[16px] text-1">
+                          Ma’lumotlar tuzilmasi
+                        </h4>
+                        <p class="font-[400] text-[14px] text-4">
+                          Bugun, 16:30
+                        </p>
+                      </div>
+                      <div
+                        class="success bg-[#fffae7] rounded-[40px] px-[14px] py-[7px]"
+                      >
+                        <p class="font-[500] text-[14px] text-[#ecc744]">
+                          Kutilayotgan
+                        </p>
+                      </div>
+                    </div>
+                    <!-- info3 -->
+                    <div
+                      class="information mt-[30px] flex items-center gap-[30px]"
+                    >
+                      <div class="info">
+                        <div
+                          class="icon_div w-[50px] h-[50px] rounded-[100%] bg-[#f1f8ff] flex items-center justify-center"
+                        >
+                          <img src="./dashboard svgs/blue.svg" alt="" />
+                        </div>
+                      </div>
+                      <div class="info_heading">
+                        <h4 class="font-[500] text-[16px] text-1">
+                          Ma’lumotlar tuzilmasi
+                        </h4>
+                        <p class="font-[400] text-[14px] text-4">
+                          Bugun, 16:30
+                        </p>
+                      </div>
+                      <div
+                        class="success bg-[#fffae7] rounded-[40px] px-[14px] py-[7px]"
+                      >
+                        <p class="font-[500] text-[14px] text-[#ecc744]">
+                          Kutilayotgan
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="tolov">
+                  <div class="activity_top flex items-center justify-between">
+                    <h1 class="font-[500] text-[20px]">To’lovlar tarixi</h1>
+                    <div class="weekly">
+                      <p class="font-[500] text-[12px] text-4">Yillik</p>
+                    </div>
+                  </div>
+
+                  <div class="barcha_tolovlar">
+                    <!-- info1 -->
+
+                    <div
+                      class="information mt-[30px] flex items-center gap-[30px]"
+                    >
+                      <div class="info">
+                        <div
+                          class="icon_div w-[50px] h-[50px] rounded-[100%] bg-[#f4fff4] flex items-center justify-center"
+                        >
+                          <img src="./dashboard svgs/tick.svg" alt="" />
+                        </div>
+                      </div>
+                      <div class="info_heading">
+                        <h4 class="font-[500] text-[16px] text-1">1-modul</h4>
+                        <p class="font-[400] text-[14px] text-4">
+                          20-yanvar, 2022-yil
+                        </p>
+                      </div>
+                      <div
+                        class="success bg-[#f1f8ff] rounded-[40px] px-[14px] py-[7px]"
+                      >
+                        <p class="font-[500] text-[14px] text-[#1d72d2]">
+                          299 000 UZS
+                        </p>
+                      </div>
+                    </div>
+                    <!-- info2 -->
+
+                    <div
+                      class="information mt-[30px] flex items-center gap-[30px]"
+                    >
+                      <div class="info">
+                        <div
+                          class="icon_div w-[50px] h-[50px] rounded-[100%] bg-[#f4fff4] flex items-center justify-center"
+                        >
+                          <img src="./dashboard svgs/tick.svg" alt="" />
+                        </div>
+                      </div>
+                      <div class="info_heading">
+                        <h4 class="font-[500] text-[16px] text-1">1-modul</h4>
+                        <p class="font-[400] text-[14px] text-4">
+                          20-yanvar, 2022-yil
+                        </p>
+                      </div>
+                      <div
+                        class="success bg-[#f1f8ff] rounded-[40px] px-[14px] py-[7px]"
+                      >
+                        <p class="font-[500] text-[14px] text-[#1d72d2]">
+                          299 000 UZS
+                        </p>
+                      </div>
+                    </div>
+                    <!-- info3 -->
+
+                    <div
+                      class="information mt-[30px] flex items-center gap-[30px]"
+                    >
+                      <div class="info">
+                        <div
+                          class="icon_div w-[50px] h-[50px] rounded-[100%] bg-[#f4fff4] flex items-center justify-center"
+                        >
+                          <img src="./dashboard svgs/tick.svg" alt="" />
+                        </div>
+                      </div>
+                      <div class="info_heading">
+                        <h4 class="font-[500] text-[16px] text-1">1-modul</h4>
+                        <p class="font-[400] text-[14px] text-4">
+                          20-yanvar, 2022-yil
+                        </p>
+                      </div>
+                      <div
+                        class="success bg-[#f1f8ff] rounded-[40px] px-[14px] py-[7px]"
+                      >
+                        <p class="font-[500] text-[14px] text-[#1d72d2]">
+                          299 000 UZS
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
